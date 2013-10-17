@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    marky_markov (0.3.4)
+      ox (~> 1.4)
+    ox (1.9.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  marky_markov (= 0.3.4)

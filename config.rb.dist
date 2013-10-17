@@ -1,0 +1,6 @@
+# Change as needed.
+DICTIONARY_NAME = "mygame"
+CONNECTION_HOST = "mygame.com"
+CONNECTION_PORT = "4201"
+CONNECTION_STRING = "connect paiige paiigespassword"
+OUTPUT_PREFIX = "say "
