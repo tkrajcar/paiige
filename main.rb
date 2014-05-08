@@ -22,7 +22,7 @@ while line = client.readline
   end
   if line =~ /says, "(.*)paiige(.*)"/i
     input_string =  /"(.*)"/.match(line).captures[0]
-    input_items = input_string.downcase.gsub(/[\]\[!"#$%&'()*+,.\/:;<=>?@\^_`{|}~-]/,'').split(" ")
+    input_items = input_string.downcase.gsub(/[\]\[\!\"\#\$\%\&\'\(\)\*\+\,\.\/\:\;\<\=\>\?\@\^\_\`\{\|\}\~\-\\]/,'').split(" ")
     input_items.reject! { |x| REMOVE_WORDS.include? x }
     input_items.delete_if { |x| x.length < 4}
     puts "Items: #{input_items}"
