@@ -1,12 +1,17 @@
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: git://github.com/tkrajcar/marky_markov.git
+  revision: f1d425f0ccc15f67d347b8d1fbbedfae00259dbd
   specs:
     marky_markov (0.3.4)
       ox (~> 1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
     ox (1.9.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  marky_markov (= 0.3.4)
+  marky_markov!

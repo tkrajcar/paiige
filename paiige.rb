@@ -9,8 +9,8 @@ class Paiige
     @dict.save_dictionary!
   end
 
-  def generate
-    g = @dict.generate_1_sentence.strip
+  def generate(phrase = nil)
+    g = @dict.generate_sentence_with_phrase(phrase).strip
     puts "GENERATE: #{g}"
     g
   end
